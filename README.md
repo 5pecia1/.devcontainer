@@ -4,5 +4,15 @@
 
 ## Devcontainer list
 
-1. [`./spring-boot`](./spring-boot/): Spring boot, Wireguard, Tomcat, maven, java 8, SonarLint, MySQL
-2. [`./flutter`](./flutter/): Flutter 3.7, Android SDK, Connect Android device
+1. [`./spring-boot`](./spring-boot/)
+  * Spring boot
+  * java 8
+  * Wireguard
+  * Tomcat
+  * maven
+  * SonarLint
+  * MySQL
+2. [`./flutter`](./flutter/)
+  * Flutter 3.7
+  * Android SDK
+  * Connect Android device
