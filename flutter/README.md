@@ -12,3 +12,8 @@
     1. `adb connect {device IP}:5555`
     2. `adb devices`
     3. `flutter run`
+
+## Web development
+
+1. `flutter run -d web-server --web-port=3000`
+2. Open the browser and go to `http://localhost:3000`

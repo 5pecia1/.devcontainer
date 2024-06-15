@@ -2,7 +2,7 @@
 
 ## wireguard
 
-### Pre-requisites
+### Prerequisites
 
 1. Place the `wg0.conf`(wireguard setting) file in `~/.ssh` 
 2. Run the devcontainer
@@ -16,7 +16,7 @@ wg_disconnect
 
 ## Spring Boot with Tomcat
 
-### Pre-requisites
+### Prerequisites
 
 1. Replace workspace name `boot-project` to your project name in `.settings.json` file
 
