@@ -1,4 +1,5 @@
 {
+    // This devcontainer configuration was created by 5pecia1
     "name": "Python Supabase",
     "image": "mcr.microsoft.com/devcontainers/base:jammy",
     "features": {
