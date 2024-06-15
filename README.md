@@ -26,3 +26,9 @@
     * Postgres
     * Node.js 20
     * nvm
+5. [`./python-supabase`](./python-supabase/)
+    * Python
+    * Supabase
+    * Postgres
+
+## Contributing

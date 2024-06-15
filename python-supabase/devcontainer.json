@@ -1,0 +1,20 @@
+{
+    "name": "Python Supabase",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/python:1": {},
+        "ghcr.io/devcontainers-contrib/features/supabase-cli:1": {},
+        "ghcr.io/robbert229/devcontainer-features/postgresql-client:1": {},
+        "ghcr.io/guiyomh/features/vim:0": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
