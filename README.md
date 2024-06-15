@@ -1,6 +1,8 @@
 # Useful devcontainer list
 
-This repository contains a curated list of devcontainers I frequently use. Devcontainers allow developers to maintain consistent and reproducible development environments by utilizing Docker containers in Visual Studio Code. This list features configurations tailored for various development needs, ensuring quick setup and seamless collaboration across teams.
+This repository contains a curated list of devcontainers I frequently use.
+
+Devcontainers allow developers to maintain consistent and reproducible development environments by utilizing Docker containers in Visual Studio Code. This list features configurations tailored for various development needs, ensuring quick setup and seamless collaboration across teams.
 
 For more details about devcontainers, refer to the [official documentation](https://containers.dev/) and [Visual Studio Code documentation](https://code.visualstudio.com/docs/devcontainers/containers).
 
@@ -13,7 +15,7 @@ For more details about devcontainers, refer to the [official documentation](http
 ## Usage
 
 1. Search(`ctrl`/`cmd` + `f`) the devcontainer environment you want to use in the list below.
-  * java, flutter, node, solidity, etc.
+    * example: java, flutter, node, solidity, etc.
 2. Click the link to go to the devcontainer directory.
 3. Move the necessary parts from directory to .devcontainer in your project.
 4. Run the command `DevContainers: Rebuild Container` in the command palette (`ctrl`/`cmd` + `shift` + `p`).
@@ -29,7 +31,7 @@ For more details about devcontainers, refer to the [official documentation](http
 
 1. [`./spring-boot`](./spring-boot/)
     * Spring boot
-    * java 8
+    * Java 8
     * Wireguard
     * Tomcat
     * maven
@@ -44,7 +46,7 @@ For more details about devcontainers, refer to the [official documentation](http
     * Node.js 18
     * nvm
     * eslint
-    * solidity
+    * Solidity
 4. [`./supabase`](./supabase/)
     * Supabase
     * Postgres
@@ -59,8 +61,8 @@ For more details about devcontainers, refer to the [official documentation](http
 7. [`./rust`](./rust/)
     * Rust
     * Cargo
-    * protobuf
-    * plnatuml
+    * gRPC
+    * PlnatUML
 8. [`./hakyll`](./hakyll/)
     * Hakyll
     * Haskell
@@ -70,7 +72,7 @@ For more details about devcontainers, refer to the [official documentation](http
     * Node.js 20
     * nvm
     * aws-cli
-    * supabase
+    * Supabase
 
 ## Contributing
 
