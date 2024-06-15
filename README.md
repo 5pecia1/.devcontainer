@@ -37,5 +37,9 @@
     * Cargo
     * protobuf
     * plnatuml
+8. [`./hakyll`](./hakyll/)
+    * Hakyll
+    * Haskell
+    * Stack
 
 ## Contributing

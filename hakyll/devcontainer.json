@@ -1,0 +1,15 @@
+{
+    // This devcontainer configuration was created by 5pecia1
+    "name": "Hakyll",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/haskell:2": {},
+        "ghcr.io/devcontainers/features/nix:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "postStartCommand": "sudo apt update && sudo apt install zlib1g zlib1g-dev -y && stack install hakyll"
+}
