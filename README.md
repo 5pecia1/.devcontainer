@@ -5,14 +5,20 @@
 ## Devcontainer list
 
 1. [`./spring-boot`](./spring-boot/)
-  * Spring boot
-  * java 8
-  * Wireguard
-  * Tomcat
-  * maven
-  * SonarLint
-  * MySQL
+    * Spring boot
+    * java 8
+    * Wireguard
+    * Tomcat
+    * maven
+    * SonarLint
+    * MySQL
 2. [`./flutter`](./flutter/)
-  * Flutter 3.7
-  * Android SDK
-  * Connect Android device
+    * Flutter 3.7
+    * Android SDK
+    * Connect Android device
+3. [`./nodejs`](./nodejs/)
+    * Node.js 18
+    * npm
+    * nvm
+    * eslint
+    * solidity
