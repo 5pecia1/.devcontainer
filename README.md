@@ -43,6 +43,7 @@ For more details about devcontainers, refer to the [official documentation](http
     * Flutter 3.7
     * Android SDK
     * Connect Android device
+    * Flutter Web
 3. [`./nodejs`](./nodejs/)
     * Node.js 18
     * nvm
@@ -63,11 +64,12 @@ For more details about devcontainers, refer to the [official documentation](http
     * Rust
     * Cargo
     * gRPC
-    * PlnatUML
+    * PlantUML
 8. [`./hakyll`](./hakyll/)
     * Hakyll
     * Haskell
     * Stack
+    * NixOS
 9. [`./nextjs`](./nextjs/)
     * Next.js
     * Node.js 20
