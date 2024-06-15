@@ -30,5 +30,7 @@
     * Python
     * Supabase
     * Postgres
+6. [`./n8n`](./n8n/)
+    * node.js 18
 
 ## Contributing
