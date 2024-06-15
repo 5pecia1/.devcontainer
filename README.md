@@ -31,6 +31,7 @@
     * maven
     * SonarLint
     * MySQL
+    * docker-in-docker
 2. [`./flutter`](./flutter/)
     * Flutter 3.7
     * Android SDK
@@ -60,5 +61,10 @@
     * Hakyll
     * Haskell
     * Stack
-
+9. [`./nextjs`](./nextjs/)
+    * Next.js
+    * Node.js 20
+    * nvm
+    * aws-cli
+    * supabase
 ## Contributing

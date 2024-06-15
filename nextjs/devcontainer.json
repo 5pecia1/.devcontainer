@@ -1,0 +1,18 @@
+{
+    // This devcontainer configuration was created by 5pecia1
+    "name": "NextJs",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "20.11.0"
+        },
+        "ghcr.io/devcontainers-contrib/features/supabase-cli:1": {},
+        "ghcr.io/devcontainers/features/aws-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    }
+}
