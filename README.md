@@ -1,6 +1,10 @@
-# Useful my devcontainer list
+# Useful devcontainer list
 
-## Pre-requirements
+This repository contains a curated list of devcontainers I frequently use. Devcontainers allow developers to maintain consistent and reproducible development environments by utilizing Docker containers in Visual Studio Code. This list features configurations tailored for various development needs, ensuring quick setup and seamless collaboration across teams.
+
+For more details about devcontainers, refer to the [official documentation](https://containers.dev/) and [Visual Studio Code documentation](https://code.visualstudio.com/docs/devcontainers/containers).
+
+## Prerequisites
 
 * Visual Studio Code
 * [Devcontainer extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
@@ -67,4 +71,8 @@
     * nvm
     * aws-cli
     * supabase
+
 ## Contributing
+
+We welcome contributions!  
+If you have any improvements or new devcontainers to add to this list, feel free to fork this repository, make your changes, and submit a pull request. Your contributions can help others have a better development experience. Thank you for your support!
