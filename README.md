@@ -18,7 +18,11 @@
     * Connect Android device
 3. [`./nodejs`](./nodejs/)
     * Node.js 18
-    * npm
     * nvm
     * eslint
     * solidity
+4. [`./supabase`](./supabase/)
+    * Supabase
+    * Postgres
+    * Node.js 20
+    * nvm

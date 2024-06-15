@@ -1,0 +1,26 @@
+{
+    "name": "Supabase",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers-contrib/features/deno-asdf:2": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "20.10.0"
+        },
+        "ghcr.io/devcontainers-contrib/features/supabase-cli:1": {
+            "version": "1.151.1"
+        },
+        "ghcr.io/robbert229/devcontainer-features/postgresql-client:1": {
+            "version": "15"
+        },
+        "ghcr.io/guiyomh/features/vim:0": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "denoland.vscode-deno",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
+}
