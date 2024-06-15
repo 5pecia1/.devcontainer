@@ -1,6 +1,6 @@
 {
     // This devcontainer configuration was created by 5pecia1
-    "name": "N8n",
+    "name": "n8n",
     "image": "mcr.microsoft.com/devcontainers/base:jammy",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
