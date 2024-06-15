@@ -1,0 +1,18 @@
+{
+    // This devcontainer configuration was created by 5pecia1
+    "name": "Rust",
+    "image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers-contrib/features/protoc-asdf:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "zxh404.vscode-proto3",
+                "jebbs.plantuml"
+            ]
+        }
+    }
+}

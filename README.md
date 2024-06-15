@@ -32,5 +32,10 @@
     * Postgres
 6. [`./n8n`](./n8n/)
     * node.js 18
+7. [`./rust`](./rust/)
+    * Rust
+    * Cargo
+    * protobuf
+    * plnatuml
 
 ## Contributing
