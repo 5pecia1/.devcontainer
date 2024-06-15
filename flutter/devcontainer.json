@@ -1,0 +1,16 @@
+{
+    // This devcontainer configuration was created by 5pecia1
+    "name": "flutter",
+    "image": "ghcr.io/sambyeol/flutter-devcontainer:3.7",
+    "runArgs": [
+        "--init"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dart-code.dart-code",
+                "dart-code.flutter"
+            ]
+        }
+    }
+}
