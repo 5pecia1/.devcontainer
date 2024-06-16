@@ -18,7 +18,7 @@ wg_disconnect
 
 ### Prerequisites
 
-1. Replace workspace name `boot-project` to your project name in `.settings.json` file
+1. Replace workspace name `boot-project` to your project name in `settings.sh` file
 
 ### Build and run
 
