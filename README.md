@@ -3,7 +3,7 @@
 This repository contains a list of devcontainers I frequently use.
 
 
-Devcontainers allow developers to maintain consistent and reproducible development environments by utilizing Docker containers in Visual Studio Code. This list features configurations tailored for various development needs, ensuring quick setup and seamless collaboration across teams.
+Devcontainers enable developers to maintain consistent and reproducible development environments by using Docker containers in various development tools, including Visual Studio Code. This list features configurations tailored for various development needs, ensuring quick setup and seamless collaboration across teams.
 
 For more details about devcontainers, refer to the [official documentation](https://containers.dev/) and [Visual Studio Code documentation](https://code.visualstudio.com/docs/devcontainers/containers).
 
