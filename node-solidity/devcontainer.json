@@ -12,6 +12,8 @@
         "vscode": {
             "extensions": [
                 "dbaeumer.vscode-eslint",
+                // or
+                // "NomicFoundation.hardhat-solidity",
                 "JuanBlanco.solidity"
             ]
         }
