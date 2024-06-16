@@ -44,7 +44,7 @@ For more details about devcontainers, refer to the [official documentation](http
     * Android SDK
     * Connect Android device
     * Flutter Web
-3. [`./nodejs`](./nodejs/)
+3. [`./node-solidity`](./node-solidity/)
     * Node.js 18
     * nvm
     * eslint
