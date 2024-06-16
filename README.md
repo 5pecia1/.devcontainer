@@ -49,6 +49,7 @@ For more details about devcontainers, refer to the [official documentation](http
     * nvm
     * eslint
     * Solidity
+    * Haardhat
 4. [`./supabase`](./supabase/)
     * Supabase
     * Postgres
