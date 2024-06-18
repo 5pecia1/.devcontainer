@@ -14,7 +14,6 @@
             "jdkDistro": "amzn"
         },
         "ghcr.io/devcontainers-contrib/features/wireguard-apt-get:1": {},
-        "ghcr.io/devcontainers/features/node:1": {} // for sonarlint extension
     },
     "mounts": [
         "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh/wg0.conf,target=/home/vscode/.ssh/wg0.conf,type=bind,consistency=cached"
@@ -29,12 +28,14 @@
                 "vscjava.vscode-gradle",
                 "vscjava.vscode-lombok",
                 "redhat.vscode-xml",
-                "SonarSource.sonarlint-vscode",
                 "mtxr.sqltools",
-                "mtxr.sqltools-driver-mysql"
+                "mtxr.sqltools-driver-mysql",
+                "shengchen.vscode-checkstyle"
             ],
             "settings": {
-                "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current"
+                "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current",
+                "java.checkstyle.configuration": "${workspaceFolder}/checkstyle.xml",
+                "java.checkstyle.version": "9.3"
             }
         }
     }

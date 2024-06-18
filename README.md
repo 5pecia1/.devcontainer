@@ -36,7 +36,7 @@ For more details about devcontainers, refer to the [official documentation](http
     * Wireguard
     * Tomcat
     * maven
-    * SonarLint
+    * Checkstyle
     * MySQL
     * docker-in-docker
 2. [`./flutter`](./flutter/)
