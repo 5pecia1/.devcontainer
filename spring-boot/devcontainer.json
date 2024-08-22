@@ -3,17 +3,22 @@
     "name": "spring-boot",
     "image": "mcr.microsoft.com/devcontainers/base:jammy",
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/devcontainers-contrib/features/maven-sdkman:2": {
-            "jdkVersion": "8",
-            "jdkDistro": "amzn"
-        },
         "ghcr.io/devcontainers-contrib/features/tomcat-sdkman:2": {
             "version": "8.5.100",
             "jdkVersion": "8",
             "jdkDistro": "amzn"
         },
-        "ghcr.io/devcontainers-contrib/features/wireguard-apt-get:1": {},
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "8",
+            "jdkDistro": "amzn",
+            "installMaven": true
+        },
+        "ghcr.io/devcontainers-contrib/features/kotlin-sdkman:2": {
+            "version": "1.9.24",
+            "jdkVersion": "11",
+            "jdkDistro": "amzn"
+        },
+        "ghcr.io/devcontainers-contrib/features/wireguard-apt-get:1": {}
     },
     "mounts": [
         "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh/wg0.conf,target=/home/vscode/.ssh/wg0.conf,type=bind,consistency=cached"
@@ -30,12 +35,16 @@
                 "redhat.vscode-xml",
                 "mtxr.sqltools",
                 "mtxr.sqltools-driver-mysql",
-                "shengchen.vscode-checkstyle"
+                "shengchen.vscode-checkstyle",
+                "fwcd.kotlin",
+                "daplf.vscode-java-kotlin"
             ],
             "settings": {
                 "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current",
                 "java.checkstyle.configuration": "${workspaceFolder}/checkstyle.xml",
-                "java.checkstyle.version": "9.3"
+                "java.checkstyle.version": "9.3",
+                "kotlin.java.home": "/usr/local/sdkman/candidates/java/11",
+                "kotlin.codegen.enabled": true
             }
         }
     }

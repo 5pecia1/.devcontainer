@@ -33,14 +33,15 @@ For more details about devcontainers, refer to the [official documentation](http
 1. [`./spring-boot`](./spring-boot/)
     * Spring boot
     * Java 8
+    * Kotlin
     * Wireguard
     * Tomcat
     * maven
     * Checkstyle
     * MySQL
-    * docker-in-docker
+    * Docker
 2. [`./flutter`](./flutter/)
-    * Flutter 3.7
+    * Flutter
     * Android SDK
     * Connect Android device
     * Flutter Web
