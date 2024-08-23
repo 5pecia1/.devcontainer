@@ -31,7 +31,7 @@ For more details about devcontainers, refer to the [official documentation](http
 ## Devcontainer list
 
 1. [`./spring-boot`](./spring-boot/)
-    * Spring boot
+    * Spring
     * Java 8
     * Kotlin
     * Wireguard
