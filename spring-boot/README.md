@@ -14,7 +14,7 @@ wg_connect
 wg_disconnect
 ```
 
-## Spring Boot with Tomcat
+## Spring with Tomcat
 
 ### Prerequisites
 
