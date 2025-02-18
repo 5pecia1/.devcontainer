@@ -1,16 +1,28 @@
 {
     // This devcontainer configuration was created by 5pecia1
     "name": "flutter",
-    "image": "ghcr.io/sambyeol/flutter-devcontainer:3.7",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "runArgs": [
-        "--init"
+        "--privileged",
+        "-v",
+        "/dev/bus/usb:/dev/bus/usb"
     ],
     "customizations": {
         "vscode": {
             "extensions": [
                 "dart-code.dart-code",
-                "dart-code.flutter"
-            ]
+                "dart-code.flutter",
+                "mthuong.vscode-flutter-freezed-helper"
+            ],
+            "settings": {
+                "explorer.fileNesting.enabled": true,
+                "explorer.fileNesting.patterns": {
+                    "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+                },
+                "dart.flutterSdkPath": "/opt/flutter"
+            }
         }
     }
 }
