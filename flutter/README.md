@@ -22,4 +22,4 @@
 
 ## Flutter version change
 
-1. Change `ENV FLUTTER_SDK_VERSION=3.24.4-stable` in Dockerfile to your desired Flutter version
+1. Change `FLUTTER_SDK_VERSION` in .devcontainer.json to your desired Flutter version

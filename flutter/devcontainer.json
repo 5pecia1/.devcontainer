@@ -2,7 +2,10 @@
     // This devcontainer configuration was created by 5pecia1
     "name": "flutter",
     "build": {
-        "dockerfile": "Dockerfile"
+        "dockerfile": "Dockerfile",
+        "args": {
+            "FLUTTER_SDK_VERSION": "3.24.4-stable"
+        }
     },
     "runArgs": [
         "--privileged",

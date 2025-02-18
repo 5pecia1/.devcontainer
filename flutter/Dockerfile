@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/devcontainers/base:jammy
 ENV ANDROID_SDK_ROOT=/usr/lib/android-sdk
 
 ENV FLUTTER_SDK_ROOT=/usr/lib/flutter
-ENV FLUTTER_SDK_VERSION=3.24.4-stable
+ENV FLUTTER_SDK_VERSION=${FLUTTER_SDK_VERSION}
 
 # Include flutter and android tools in path
 ENV PATH="${PATH}:${FLUTTER_SDK_ROOT}/bin:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
@@ -32,10 +32,6 @@ RUN apt-get update && apt-get upgrade -y && \
 
 # Add flutter to safe directory in git
 RUN git config --global --add safe.directory /usr/lib/flutter
-
-# Configure git user name and email
-RUN git config --global user.name "Your Name" \
-    && git config --global user.email "mail@example.com"
 
 # Download and install Android Command Line Tools
 RUN mkdir -p ${ANDROID_SDK_ROOT}/cmdline-tools && \
