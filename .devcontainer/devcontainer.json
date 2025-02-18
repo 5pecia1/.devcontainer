@@ -1,20 +1,17 @@
 {
-    "name": "My default dev container",
+    "name": ".devcontainer",
     "image": "mcr.microsoft.com/devcontainers/base:jammy",
-    // Use 'settings' to set *default* container specific settings.json values on container create.
     "features": {
-        "ghcr.io/devcontainers-contrib/features/tmux-apt-get:1": {},
-        "ghcr.io/guiyomh/features/vim:0": {}
+        "ghcr.io/devcontainers-extra/features/tmux-homebrew:1": {},
+        "ghcr.io/guiyomh/features/vim:0": {},
+        "ghcr.io/eliises/devcontainer-features/devcontainers-cli:1": {}
     },
-    // Set *default* container specific settings.json values on container create.
     "customizations": {
         "vscode": {
             "extensions": [
                 "streetsidesoftware.code-spell-checker",
-                "GitHub.copilot",
                 "ms-vscode.makefile-tools",
                 "eamodio.gitlens",
-                "GitHub.copilot-chat",
                 "SimonSiefke.svg-preview"
             ]
         }
