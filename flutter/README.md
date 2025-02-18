@@ -22,7 +22,4 @@
 
 ## Flutter version change
 
-1. `cd /opt/flutter`
-2. `git fetch --tags`
-3. `git checkout {version}`
-4. `flutter doctor`
+1. Change `ENV FLUTTER_SDK_VERSION=3.24.4-stable` in Dockerfile to your desired Flutter version
