@@ -23,6 +23,6 @@
 ## Flutter version change
 
 1. `cd /opt/flutter`
-2. `git fetch`
+2. `git fetch --tags`
 3. `git checkout {version}`
 4. `flutter doctor`
