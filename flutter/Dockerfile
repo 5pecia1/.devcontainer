@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/devcontainers/base:jammy
 ENV ANDROID_SDK_ROOT=/usr/lib/android-sdk
 
 ENV FLUTTER_SDK_ROOT=/usr/lib/flutter
-ENV FLUTTER_SDK_VERSION=${FLUTTER_SDK_VERSION}
+ENV FLUTTER_SDK_VERSION=3.22.0-stable
 
 # Include flutter and android tools in path
 ENV PATH="${PATH}:${FLUTTER_SDK_ROOT}/bin:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
@@ -44,12 +44,12 @@ RUN mkdir -p ${ANDROID_SDK_ROOT}/cmdline-tools && \
 RUN yes | ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager --licenses && \
     ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager "platform-tools" "platforms;android-34" "build-tools;33.0.0"
 
-# Insall Flutter SDK
+# Install Flutter SDK
 RUN mkdir -p ${FLUTTER_SDK_ROOT} && \
     cd ${FLUTTER_SDK_ROOT} && \
-    curl -OL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_SDK_VERSION}.tar.xz && \
-    tar -xf flutter_linux_${FLUTTER_SDK_VERSION}.tar.xz -C /usr/lib/ && \
-    rm -rf flutter_linux_${FLUTTER_SDK_VERSION}.tar.xz
+    curl -OL "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_SDK_VERSION}.tar.xz" && \
+    tar xf "flutter_linux_${FLUTTER_SDK_VERSION}.tar.xz" -C /usr/lib/ && \
+    rm -rf "flutter_linux_${FLUTTER_SDK_VERSION}.tar.xz"
 
 # Disable Flutter telemetry
 RUN flutter --disable-analytics
