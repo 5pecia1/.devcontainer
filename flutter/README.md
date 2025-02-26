@@ -4,16 +4,17 @@
 
 1. On the client:
     1. The device and the devcontainer must be connected to the same network.
-    2. Connect the device to the computer via USB.
-    2. `adb devices`
-    3. `adb -s {device name} tcpip 5555`
-    4. `adb connect {device IP}:5555`
-    5. `adb devices`
-    6. Disconnect the device from the computer.
+    2. Connect the device to the computer via USB, or use an Android emulator.
+    3. `adb devices`
+    4. `adb -s {device name} tcpip 5555`
 2. On the Devcontainer:
-    1. `adb connect {device IP}:5555`
-    2. `adb devices`
-    3. `flutter run`
+    1. If using an Android emulator:
+       1. Run `ssh -L 5555:127.0.0.1:5555 {user id}@{computer ip}`
+       2. Open a new terminal to proceed
+       3. In this case, `{device IP}` will be `127.0.0.1`
+    2. `adb connect {device IP}:5555`
+    3. `adb devices`
+    4. `flutter run`
 
 ## Web development
 

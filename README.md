@@ -43,7 +43,7 @@ For more details about devcontainers, refer to the [official documentation](http
 2. [`./flutter`](./flutter/)
     * Flutter
     * Android SDK
-    * Connect Android device
+    * Connect Android device or Android emulator
     * Flutter Web
     * Flutter Linux
 3. [`./node-solidity`](./node-solidity/)
