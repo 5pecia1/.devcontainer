@@ -21,7 +21,7 @@
                 "explorer.fileNesting.patterns": {
                     "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
                 },
-                "dart.flutterSdkPath": "/opt/flutter"
+                "dart.flutterSdkPath": "/usr/lib/flutter"
             }
         }
     }
