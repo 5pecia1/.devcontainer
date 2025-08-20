@@ -79,6 +79,11 @@ For more details about devcontainers, refer to the [official documentation](http
     * nvm
     * aws-cli
     * Supabase
+10. [`./r-markdown`](./r-markdown/)
+    * R
+    * latex
+    * kotex
+    * R-Markdown
 
 ## Contributing
 

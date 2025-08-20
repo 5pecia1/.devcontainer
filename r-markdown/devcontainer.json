@@ -8,7 +8,7 @@
         }
     },
     // Pandoc 및 R Markdown 프리뷰에 필요한 R 패키지 설치
-    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y pandoc && R -e \"install.packages(c('languageserver', 'httpgd', 'rmarkdown', 'htmltools', 'sass'), repos='https://cloud.r-project.org')\"",
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-lang-korean && R -e \"install.packages(c('languageserver', 'httpgd', 'rmarkdown', 'htmltools', 'sass'), repos='https://cloud.r-project.org')\"",
     "customizations": {
         "vscode": {
             "extensions": [
