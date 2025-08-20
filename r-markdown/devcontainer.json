@@ -1,0 +1,22 @@
+{
+    // This devcontainer configuration was created by 5pecia1
+    "name": "R-Markdown",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/rocker-org/devcontainer-features/r-apt": {
+            "installRMarkdown": true
+        }
+    },
+    // Pandoc 및 R Markdown 프리뷰에 필요한 R 패키지 설치
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y pandoc && R -e \"install.packages(c('languageserver', 'httpgd', 'rmarkdown', 'htmltools', 'sass'), repos='https://cloud.r-project.org')\"",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tomoki1207.pdf",
+                "TianyiShi.rmarkdown",
+                "tootone.org-mode",
+                "hediet.vscode-drawio"
+            ]
+        }
+    }
+}
